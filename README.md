@@ -13,7 +13,7 @@ This repository contains the implementation of a machine learning model designed
   <li><a href="#installation">Installation</a></li>
   <li><a href="#usage">Usage</a></li>
   <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#license">License</a></li>
+  <li><a href="#Data Sourcing">Data Sourcing</a></li>
   <li><a href="#acknowledgements">Acknowledgements</a></li>
 </ol>
 
@@ -72,5 +72,9 @@ To set up the project locally, following steps were taken:
     ```bash
     pip install -r requirements.txt
     ```
+## <a id="Data Sourcing"></a>Data Sourcing 
 
+Data was collected from various sources including USDA, Economic Research Service, and the Food Availability Data System. The datasets included information on fruit per capita availability, distribution between fresh and processed fruits, import/export data, customer orders, shipment details, and more with more than 400,000 data fields. Missing values were filled with median values to maintain the integrity of the dataset. Outliers were identified and handled to reduce noise.
 
+<a id="acknowledgements"></a>Acknowledgements
+This project was developed as part of a research paper titled "Machine Learning Model for a Digital Twin for Predictive Maintenance and Optimization in a Fruit Supply Chain" by Vania Goel, Anusha Arora with contributions and support from Dr. Neetu Goel, and Dr. Pooja Thakar.
